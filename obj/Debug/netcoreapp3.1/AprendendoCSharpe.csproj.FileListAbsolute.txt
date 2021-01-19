@@ -1,0 +1,4 @@
+C:\Users\Alisson Gustavo\source\repos\AprendendoCSharpe\AprendendoCSharpe\obj\Debug\netcoreapp3.1\AprendendoCSharpe.csprojAssemblyReference.cache
+C:\Users\Alisson Gustavo\source\repos\AprendendoCSharpe\AprendendoCSharpe\obj\Debug\netcoreapp3.1\AprendendoCSharpe.AssemblyInfoInputs.cache
+C:\Users\Alisson Gustavo\source\repos\AprendendoCSharpe\AprendendoCSharpe\obj\Debug\netcoreapp3.1\AprendendoCSharpe.AssemblyInfo.cs
+C:\Users\Alisson Gustavo\source\repos\AprendendoCSharpe\AprendendoCSharpe\obj\Debug\netcoreapp3.1\AprendendoCSharpe.csproj.CoreCompileInputs.cache
