@@ -7,23 +7,30 @@ namespace AprendendoCSharpe.ASSUNTOS_POO.Conceito_Inicial
     {
         static void Main(string[] args)
         {
-            string nome;
 
-            Console.WriteLine("Por favor, digite o seu nome:");
-            nome = Console.ReadLine();
-
+            Console.WriteLine("*** Conta Bancária *** ");
 
             // criando a instância da Conta
             // É possível criar várias instâncias dessa classe
             Conta contaA = new Conta();
 
-            contaA.Saldo = 5000;
-            contaA.Limite = 1000;
-            contaA.Numero = 1010;
+            contaA.AdicionarLimite(1000);
 
-            Console.WriteLine($"Olá {nome}, o seu saldo é de {contaA.Saldo}");
-            Console.WriteLine($"O seu limite para saque é de {contaA.Limite}");
-            Console.WriteLine($"O número da sua conta é {contaA.Numero}");
+            contaA.Deposita(450);
+            contaA.Deposita(600);
+            contaA.Deposita(2000);
+
+            bool saque = contaA.Sacar(900);
+
+            if (saque)
+            {
+                double saldo = contaA.ConsultaSaldoDisponivel();
+
+                Console.WriteLine("Saldo atual: " + saldo);
+                Console.WriteLine("Limite disponível: " + contaA.Limite);
+            }
+
+            
 
 
         }
