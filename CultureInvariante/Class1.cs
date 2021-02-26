@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.Text;
 
-namespace Numeros
+namespace AprendendoCSharpe.CultureInvariante
 {
     class Program
     {
@@ -20,4 +22,3 @@ namespace Numeros
         }
     }
 }
-

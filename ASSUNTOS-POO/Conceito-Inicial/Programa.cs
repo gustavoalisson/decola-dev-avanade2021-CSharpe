@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace AprendendoCSharpe.ASSUNTOS_POO.Conceito_Inicial
 {
     class Programa
